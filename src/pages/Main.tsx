@@ -46,6 +46,8 @@ export const Main = () => {
             'question22',
             'question23',
             'question24',
+            'question101',
+            'question102',
         ];
         keys.forEach((key) => {
             const savedValue = localStorage.getItem(key);
@@ -135,6 +137,14 @@ export const Main = () => {
                     size="xl"
                     value={values.question8 || ''}
                     onChange={handleChange('question8')}
+                />
+            </div>
+            <div className={styles.inputWrapper}>
+                <Text variant="subheader-3">Что с ним случилось?</Text>
+                <TextArea
+                    size="xl"
+                    value={values.question101 || ''}
+                    onChange={handleChange('question101')}
                 />
             </div>
             <div className={styles.inputWrapper}>
@@ -236,6 +246,14 @@ export const Main = () => {
                     size="xl"
                     value={values.question19 || ''}
                     onChange={handleChange('question19')}
+                />
+            </div>
+            <div className={styles.inputWrapper}>
+                <Text variant="subheader-3">Что с ним случилось?</Text>
+                <TextArea
+                    size="xl"
+                    value={values.question102 || ''}
+                    onChange={handleChange('question102')}
                 />
             </div>
             <div className={styles.inputWrapper}>
