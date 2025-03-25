@@ -2,6 +2,10 @@
     width: 100%;
 }
 
+.paragraph {
+    margin-bottom: 40px;
+}
+
 .wrapper {
     padding-bottom: 20px;
 }
@@ -23,4 +27,56 @@
 .editor {
     border: 1px solid gray;
     border-radius: 10px;
+}
+
+.redText {
+    color: red;
+}
+
+.blueText {
+    color: #0070c0;
+}
+
+.purpleText {
+    color: #7030a0;
+}
+
+.yellowBackgroud {
+    background-color: yellow;
+}
+
+.orangeBackgroud {
+    background-color: #ffc000;
+}
+
+.blackBackgroud {
+    color: white;
+    background-color: black;
+}
+
+.redBackgroud {
+    background-color: red;
+}
+
+.beigeBackgroud {
+    background-color: #fac08f;
+}
+
+.blueBackground {
+    background-color: #0ff;
+}
+.lightGreenBackground {
+    background-color: #cfc;
+}
+.greenBackground {
+    background-color: #0f0;
+}
+
+.fontSizeUp {
+    font-size: 18px;
+}
+
+.itelicU {
+    font-style: italic;
+    text-decoration: underline;
 }

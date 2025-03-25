@@ -24,9 +24,9 @@
   },
   "scripts": {
     "prepare": "husky install",
-    "dev": "vite",
+    "dev": "vite --port 3050",
     "build": "tsc && vite build",
-    "preview": "vite preview",
+    "preview": "vite preview --host 80.68.156.29 --port 3050",
     "lint:js": "eslint --ext .js,.jsx,.ts,.tsx .",
     "lint:styles": "stylelint '{styles,src}/**/*.scss'",
     "lint:prettier": "prettier --check '**/*.md'",
